@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPURS SHOP</title>
+
+    <!-- 부트스트랩 아이콘 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- pc.css : 768px 부터 px-->
+    <link 
+    rel="stylesheet" 
+    href="./css/pc.css"
+    media="screen and (min-width : 960px)"
+    >
+    
+     <!-- mobile.css 767px까지 모바일-->
+     <link 
+     rel="stylesheet" 
+     href="./css/mobile.css"
+     media="screen and (max-width : 959px)"
+     >
+
+     <!-- JQurey CND -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+     <!-- Swiper CDN -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+   />
+
+   <script 
+   src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1 id="logo">
+                <a href="./index.html">
+                    <img src="./images/logo.png" alt="스퍼스샵">
+                </a>
+            </h1>
+
+            <h1 id="m-logo">
+                <a href="./index.html">
+                    <img 
+                    class="m-logo"
+                    src="./images/m_logo.png" alt="스퍼스샵">
+                </a>
+            </h1>
+
+            <nav class="mainMenu">
+                <a href="#">키트룸</a>
+                <a href="#">나이키</a>
+                <a href="#">패션</a>
+                <a href="#">선물 및 기념품</a>
+            </nav>
+
+          
+    
+            <div class="toggle-menu">
+                <a href="#" class="person">
+                    <i class="bi bi-person"></i>
+                </a>
+                <a href="#" class="cart">
+                    <i class="bi bi-bag-check"></i>
+                </a>
+
+              
+                <a 
+                class="menu-btn" 
+                href="#" >
+                    <i class="bi bi-list"></i>
+                </a>
+            
+
+
+            </div>
+
+         
+
+        </div>
+       
+    </header>
+
+    <main>
+
+        
+    <div class="modal">
+        <div class="box">
+            <video 
+            autoplay
+            muted
+            src="./images/thirdKit.mp4"></video>
+
+            <button class="btn-close">
+                <i class="bi bi-x-circle"></i>
+              </button>
+
+
+        </div>
+    </div>
+       
+
+        <div class="container">
+            <section id="main-visual">
+                <div class="kit">
+                
+                        <a href="#">
+                           
+                        </a>
+            
+                
+                        <div class="half">
+                            <a href="#">
+                               
+                            </a>
+
+                            <a href="#">
+                               
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="text">
+                        <h2>22/23 SPURS KIT</h2>
+                        <p>토트넘 홋스퍼 홈 셔츠 2022/23로 팀을 응원해보세요. 경기장에서 선수들이 착용하는 뛰어난 퀄리티 셔츠는 현장에서 아무리 활발하게 활동하든 몸과의 시너지 효과를 낼 수 있는 나이키만의 테일러드 핏을 제공합니다. </p>
+                       
+                        <button class="buy-btn">
+                            <a href="#">구매하기</a>
+                        </button>
+
+                    </div>
+            </section>
+        </div>
+
+
+        <section id="main-visual">
+            <div class="sonny container">
+                <a href="#">
+                    <img src="./images/sonny_collection.png" alt="손흥민 콜렉션">
+                </a>
+            </div>
+            <div class="text">
+                <h2>SONNY Collection</h2>
+                <p>스퍼스와 손흥민에 대한 응원의 모습을 보여주세요! 어느 날에도 편안한 티셔츠를  착용해보세요. 경기 당일, 팀을 응원하든, 친구나 가족과 함께 큰 화면에서 경기를 관람하든, 이 티셔츠를 입는 것보다 손흥민에 대한 지지를 보여주는 더 좋은 방법은 없습니다. </p>
+               
+                <button class="buy-btn">
+                    <a href="#">구매하기</a>
+                </button>
+
+            </div>
+            
+
+        </section>
+
+        <section id="main-visual">
+            <div class="vintage container">
+                <a href="#">
+                    <img src="./images/vintage_product.png" alt="빈티지콜렉션">
+                </a>
+            </div>
+
+            
+            <div class="text vintage-text">
+                <h2>VINTAGE PRODUCTS</h2>
+                <p>스퍼스의 역사적인 빈티지 제품을 만나보세요!</p>
+               
+                <button class="buy-btn">
+                    <a href="#">구매하기</a>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section id="main-visaul">
+            <div class="container p-container swiper mySwiper">
+                <ul class="products swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/product1.jpg" alt="사인볼">
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/product2.jpg" alt="스카프">
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/product3.jpg" alt="장난감">
+                        </a>
+                    </li>
+                    <li class="swiper-slide">
+                        <a href="#">
+                            <img src="./images/product4.jpg" alt="유아제품">
+                        </a>
+                    </li>
+                </ul>
+    
+                <div class="text">
+                    <h2>더 많은 스퍼스 제품</h2>
+                    <p>스카프, 장난감, 사인볼등 더욱 다양한 스퍼스 제품을 만나러와보세요!</p>
+                   
+                    <button class="buy-btn">
+                        <a href="#">구매하기</a>
+                    </button>
+    
+                </div>
+            </div>
+           
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+
+       
+        <h5>
+            <a href="#">
+                이용약관 /
+            </a>
+            
+            <a href="#">
+                개인정보 취급방침 /
+            </a> 
+            <a href="#">
+                쿠키 정책
+            </a> 
+          
+        </h5>
+
+        <ul>
+            <li><a href="#">문의</a></li>
+            <li><a href="#">매장 위치 안내</a></li>
+            <li><a href="#">배송 및 반품</a></li>
+            <li><a href="#">자주 묻는 질문</a></li>
+            <li><a href="#">뉴스레터 구독 신청</a></li>
+        </ul>
+
+        <div class="payment">
+
+        
+                <a href="#">
+                    <img src="./images/visa.png" alt="VISA">
+                </a>
+        
+           
+          
+                <a href="#">
+                    <img src="./images/master.png" alt="mastercard">
+                </a>
+            
+                <a href="#">
+                    <img src="./images/paypal.png" alt="PayPal">
+                </a>
+            
+           
+            </div>
+
+        </div>
+    </footer>
+
+ 
+   <!-- main.js -->
+   <script src="./js/main.js"></script>
+    
+</body>
+</html>
